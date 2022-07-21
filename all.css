@@ -72,25 +72,30 @@ img{
     font-size: 64px;
     line-height: 84px;
 }
-.fz-24{
+.fz-24-42{
     font-size: 24px;
+    line-height: 42px;
 }
-.fz-20{
+.fz-24-36{
+    font-size: 24px;
+    line-height: 36px;
+}
+.fz-20-42{
     font-size: 20px;
+    line-height: 42px;
+}
+.fz-20-30{
+    font-size: 20px;
+    line-height: 30px;
+}
+.fw-bk{
+    font-weight: 900;
 }
 .fw-b{
     font-weight: 700;
 }
-.lh-42{
-    line-height: 42px;
-}
-.lh-36{
-    line-height: 36px;
-}
-.lh-30{
-    line-height: 30px;
-}
-.secondary{
+
+.txt-white{
     color: #fff;
 }
 /* margin */
@@ -137,7 +142,14 @@ img{
     margin-right: 24px;
 }
 
-.wrap{
+.bd{
+    border: 1px solid #707070;
+}
+.bd-b{
+    border-bottom: 1px solid #000;
+}
+
+.container{
     margin: 0 auto;
 }
 
@@ -164,23 +176,21 @@ img{
     filter: brightness(140%);
 }
 
-.workExp{
-    width: 384px;
-    border-top: 1px solid #000;
-    padding-top: 28px;
+.intro{
+    width: 412px;
+    margin-bottom: 28px;
 }
 
-.workExp li::before{
+.dot::before{
     display: inline-block;
-    margin-right: 16px;
-    content: "";
+    content:"";
+    background-color: #891818;
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background-color: #891818;
+    margin-right: 16px;
     vertical-align: middle;
 }
-
 .myBrand{
     background-color: #000;
     border-bottom: 1px solid #707070;
@@ -201,17 +211,15 @@ img{
 }
 
 .workItem{
-    margin: 0 24px 48px 0;
+    margin-right: 24px;
+    margin-bottom: 48px;
 }
 
-.workItem:hover{
-    filter: contrast(60%);
-}
 .contact{
     background-color: #000;
     padding: 64px 0;
 }
 
-.contactMethod:hover{
+.contact a:hover{
     color: #891818;
 }
