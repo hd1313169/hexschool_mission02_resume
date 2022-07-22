@@ -150,6 +150,7 @@ img{
 }
 
 .container{
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -211,7 +212,6 @@ img{
 }
 
 .workItem{
-    margin-right: 24px;
     margin-bottom: 48px;
 }
 
